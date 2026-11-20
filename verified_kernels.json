@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-20T06:38:03Z",
+  "platforms": {
+    "win32-x64": {
+      "approved": {
+        "version": "148.0.7778.215-1.1",
+        "download_url": "https://github.com/adryfish/fingerprint-chromium/releases/download/148.0.7778.215/ungoogled-chromium_148.0.7778.215-1.1_windows_x64.zip",
+        "sha256": ""
+      },
+      "blocked": [
+        "150.0.7871.186",
+        "150.0.7871.186-1.1"
+      ]
+    },
+    "darwin-arm64": {
+      "approved": {
+        "version": "152.0.7977.82-1.1",
+        "download_url": "https://github.com/pocchian/fingerprint-chromium-arm-mac/releases/download/v1.0.0/ungoogled-chromium_152.0.7977.82-1.1_arm64-macos-adhoc.dmg",
+        "sha256": ""
+      },
+      "blocked": []
+    },
+    "darwin-x86_64": {
+      "approved": {
+        "version": "148.0.7778.215-1.1",
+        "download_url": "https://github.com/adryfish/fingerprint-chromium/releases/download/148.0.7778.215/ungoogled-chromium_148.0.7778.215-1.1_macos.dmg",
+        "sha256": ""
+      },
+      "blocked": [
+        "150.0.7871.186",
+        "150.0.7871.186-1.1"
+      ]
+    }
+  }
+}
